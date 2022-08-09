@@ -48,6 +48,10 @@ body {
   margin: 0 auto;
   padding: 0 10px;
 }
+.header {
+  min-height: 1080px;
+  margin-bottom: 260px;
+}
 
 .header__top {
   display: flex;
@@ -164,4 +168,48 @@ body {
   position: absolute;
   top: 3px;
   z-index: -1;
+}
+
+.woodtypes {
+  margin-bottom: 250px;
+}
+
+.woodtypes__title {
+  font-family: 'KyivType Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 132.9%;
+  text-transform: uppercase;
+  padding-bottom: 125px;
+  max-width: 745px;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  gap: 174px;
+}
+
+.products__item--img {
+  border-radius: 42px;
+  margin-bottom: 33px;
+}
+
+.products__item--title {
+  font-weight: 700;
+  line-height: 36px;
+  padding-left: 75px;
+  margin-bottom: 44px;
+}
+
+.products__item {
+  font-weight: 500;
+  line-height: 36px;  
+  margin-bottom: 28px;
+}
+
+.products__item svg {
+  margin-right: 10px;
 }
