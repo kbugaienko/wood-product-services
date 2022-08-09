@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -38,7 +39,7 @@
       <img src="images/header-bg.png" alt="" class="header__background-img">
       <div class="header__content">
         <div class="header__content--text">
-          <h1 class="header__title">Solid wood products</h1>
+          <h1 class="header__title title">Solid wood products</h1>
           <p class="header__text">Oak, beech, ash from <span>1700 CZK</span> per m3</p>
           <button class="header__btn">Order</button>
         </div>
@@ -53,7 +54,7 @@
   <main class="main">
     <section class="woodtypes">
       <div class="container">
-        <h1 class="woodtypes__title">THE WOOD WE WORK WITH</h1>
+        <h1 class="woodtypes__title title">THE WOOD WE WORK WITH</h1>
         <div class="products">
           <div class="products__item--oak">
             <img src="images/oak.jpg" alt="oak" class="products__item--img">
@@ -116,12 +117,24 @@
         </div>
       </div>
     </section>
+    <section class="ourwork">
+      <div class="container">
+        <h1 class="ourwork__title title">Our work</h1>
+        <div class="ourwork__slider">
+          <img src="images/work-1.jpg" alt="work-1" class="ourwork-slider__item" />
+          <img src="images/work-1.jpg" alt="work-2" class="ourwork-slider__item" />
+          <img src="images/work-1.jpg" alt="work-3" class="ourwork-slider__item" />
+          <img src="images/work-1.jpg" alt="work-4" class="ourwork-slider__item" />
+        </div>
+      </div>
+    </section>
   </main>
   <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous">
   </script>
+  <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
