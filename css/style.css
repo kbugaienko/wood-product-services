@@ -172,6 +172,7 @@ body {
   border-radius: 11px 42px 42px 11px;
   position: absolute;
   top: 3px;
+  left: 0;
   z-index: -1;
 }
 
@@ -481,4 +482,55 @@ body {
 .footer__phone-img,
 .footer__address-img {
   margin-right: 14px;
+}
+
+/* Error 404 page */
+.header__error-content {
+  margin-top: 23px;
+}
+
+.header__errornum {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  font-family: 'KyivType Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 500px;
+  line-height: 107.9%;
+  color: #F5F5F5;
+}
+
+.header__errornum-text {
+  font-family: 'KyivType Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 107.9%;
+  color: #F5F5F5;
+  text-align: center;
+  top: -25px;
+  position: relative;
+  margin-bottom: 37px;
+}
+
+.header__errornum-descr {
+  line-height: 36px;
+  text-align: center;
+  color: #FFDBBB;
+  margin-bottom: 42px;
+}
+
+.header__errornum-btn {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #F5F5F5;
+  padding: 11px 70px;
+  background-color: #728BAD;
+  border-radius: 42px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }
