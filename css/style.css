@@ -62,11 +62,22 @@ body {
   margin-bottom: 260px;
 }
 
+.header-gallery {
+  min-height: 180px;
+  margin-bottom: 100px;
+}
+
 .header__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
+}
+
+.header-gallery {
+  background-color: #1E0C06;
+  box-shadow: 0px -8px 52px rgba(238, 238, 238, 0.17);
+  border-radius: 0px 0px 79px 79px;
 }
 
 .header__menu {
