@@ -100,6 +100,10 @@ body {
   line-height: 24px;
 }
 
+.header__menu-item--active {
+  color: #A3B8D7;
+}
+
 .header__menu-item + .header__menu-item {
   margin-left: 57px;
 }
