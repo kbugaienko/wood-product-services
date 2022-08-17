@@ -587,3 +587,12 @@ body {
 .contact__map-img {
   border-radius: 42px;
 }
+
+.price {
+  margin-bottom: 150px;
+}
+
+.price__title {
+  margin-bottom: 115px;
+  padding-left: 85px;
+}
