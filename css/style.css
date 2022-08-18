@@ -345,6 +345,7 @@ body {
 
 .about {
   margin-bottom: 190px;
+  margin-right: 100px;
   max-width: 1325px;
   background-color: #1E0C06;
   border-radius: 0px 42px 42px 0px;
@@ -382,6 +383,8 @@ body {
 
 .about__images {
   position: relative;
+  max-width: 430px;
+  height: 700px;
 }
 
 .about__images-img1 {
@@ -613,7 +616,23 @@ body {
   padding-left: 85px;
 }
 
-/* Media queries for Contact page */
+@media (max-width: 1360px) {
+  .about__box {
+    display: block;
+    padding-left: 60px;
+  }
+  .about__descr {
+    max-width: 100%;
+  }
+  .aboutus__text {
+    margin-bottom: 45px;
+  }
+  .about__images {
+    width: 430px;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 1140px) {
   .contact__info {
     padding-left: 30px;
@@ -650,6 +669,9 @@ body {
   }
   .footer__inner {
     margin-top: 50px;
+  }
+  .about {
+    margin-right: 25px;
   }
 }
 
@@ -721,9 +743,12 @@ body {
     width: 500px;
     height: 300px;
   }
-  .contact__title {
+  .title {
     font-size: 70px;
     margin-bottom: 50px;
+  }
+  .aboutus__text {
+    font-size: 25px;
   }
 }
 
@@ -748,6 +773,34 @@ body {
   .footer__num span,
   .footer__address-text span {
     font-size: 20px;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .aboutus__text {
+    font-size: 20px;
+  }
+  .about__box {
+    padding: 20px;
+  }
+  .about__images {
+    max-width: 300px;
+    height: 500px;
+  }
+  .about__images-img1 {
+    height: 220px;
+    border-radius: 40px;
+  }
+  .about__images-img2,
+  .about__images-img3 {
+    height: 150px;
+    border-radius: 33px;
+  }
+}
+
+@media (max-width: 360px) {
+  .about__images {
+    max-width: 265px;
   }
 }
 
