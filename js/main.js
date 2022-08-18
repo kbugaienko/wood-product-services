@@ -12,4 +12,7 @@ $(function(){
 		preloader: false,
 		fixedContentPos: false
 	});
+	$('.menu__btn').on('click', function(){
+		$('.header__menu-list').toggleClass('header__menu-list--active');
+	});
 });
