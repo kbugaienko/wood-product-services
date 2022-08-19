@@ -219,6 +219,7 @@ body {
 .products {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 174px;
 }
 
@@ -665,6 +666,10 @@ body {
   .contact__info {
     padding-left: 30px;
   }
+  .products {
+    gap: 20px;
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 1060px) {
@@ -675,6 +680,10 @@ body {
     width: 700px;
     height: 400px;
   }
+}
+
+@media (max-width: 1000px) {
+
 }
 
 @media (max-width: 950px) {
@@ -786,12 +795,24 @@ body {
   .form__textarea,
   .questions__btn,
   .footer__address-text,
-  .footer__num span {
+  .footer__num span,
+  .products__list,
+  .products__item--title {
     font-size: 25px;
   }
   .about,
-  .ourwork {
+  .ourwork,
+  .woodtypes {
     margin-bottom: 50px;
+  }
+  .products__item--oak,
+  .products__item--buk,
+  .products__item--ash {
+    max-width: 266px;
+  }
+  .woodtypes__title {
+    padding-bottom: 0;
+    margin-left: 25px;
   }
 }
 
@@ -814,7 +835,9 @@ body {
     font-size: 20px;
   }
   .contact__phone-img,
-  .contact__address-img {
+  .contact__address-img,
+  .footer__phone-img,
+  .footer__address-img {
     width: 30px;
     height: 30px;
   }
@@ -843,6 +866,12 @@ body {
   .about__images-img3 {
     height: 150px;
     border-radius: 33px;
+  }
+}
+
+@media (max-width: 503px) {
+  .products {
+    justify-content: center;
   }
 }
 
