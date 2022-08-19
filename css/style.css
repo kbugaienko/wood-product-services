@@ -669,7 +669,7 @@ body {
 
 @media (max-width: 1060px) {
   .contact__box {
-    margin-bottom: 150px;
+    margin-bottom: 125px;
   }
   .contact__map-img {
     width: 700px;
@@ -767,6 +767,10 @@ body {
 }
 
 @media (max-width: 740px) {
+  .logo__img {
+    width: 155px;
+    height: 66px;
+  }
   .contact__map-img {
     width: 500px;
     height: 300px;
@@ -808,6 +812,11 @@ body {
   .contact__num span,
   .contact__address-text span {
     font-size: 20px;
+  }
+  .contact__phone-img,
+  .contact__address-img {
+    width: 30px;
+    height: 30px;
   }
   .footer__num span,
   .footer__address-text span {
