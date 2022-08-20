@@ -225,14 +225,17 @@ body {
 
 .products__item--img {
   border-radius: 42px;
-  margin-bottom: 33px;
+  display: block;
+  margin: 0 auto;
 }
 
 .products__item--title {
   font-weight: 700;
   line-height: 36px;
-  padding-left: 75px;
+  margin-top: 33px;
   margin-bottom: 44px;
+  display: block;
+  text-align: center;
 }
 
 .products__item {
@@ -866,6 +869,15 @@ body {
   .about__images-img3 {
     height: 150px;
     border-radius: 33px;
+  }
+  .products__item--img {
+    width: 150px;
+    height: 150px;
+    border-radius: 32px;
+    margin-bottom: 15px;
+  }
+  .products__item--title {
+    margin-bottom: 25px;
   }
 }
 
