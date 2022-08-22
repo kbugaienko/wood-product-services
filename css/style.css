@@ -325,6 +325,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 30px;
 }
 
 .advantages__title {
@@ -669,6 +670,12 @@ body {
   }
 }
 
+@media (max-width: 1180px) {
+  .advantages__content {
+    gap: 30px;
+  }
+}
+
 @media (max-width: 1140px) {
   .contact__info {
     padding-left: 30px;
@@ -676,6 +683,30 @@ body {
   .products {
     gap: 20px;
     padding: 0 20px;
+  }
+}
+
+@media (max-width: 1085px) {
+  .advantages__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+  }
+  .advantages__descr {
+    order: -1;
+    margin: 0 25px;
+  }
+  .advantages__descr-text {
+    margin-bottom: 30px;
+  }
+  .advantages__title {
+    margin-left: 25px;
+    padding: 0;
+  }
+  .advantages__video {
+    width: 609px;
+    height: 324px;
+    margin: 0 auto;
   }
 }
 
@@ -806,12 +837,15 @@ body {
   .footer__address-text,
   .footer__num span,
   .products__list,
-  .products__item--title {
+  .products__item--title,
+  .advantages__descr-text,
+  .advantages__btn {
     font-size: 25px;
   }
   .about,
   .ourwork,
-  .woodtypes {
+  .woodtypes,
+  .advantages {
     margin-bottom: 50px;
   }
   .products__item--oak,
@@ -925,6 +959,23 @@ body {
   }
 }
 
+@media (max-width: 445px) {
+  .advantages__btn {
+    padding: 11px 25px;
+    border-radius: 30px;
+  }
+  .advantages__video {
+    height: 270px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact__map-img {
+    width: 300px;
+    height: 230px;
+  }
+}
+
 @media (max-width: 385px) {
   .title {
     font-size: 30px;
@@ -936,7 +987,9 @@ body {
   .form__textarea,
   .questions__btn,
   .footer__address-text,
-  .footer__num span {
+  .footer__num span,
+  .advantages__descr-text,
+  .advantages__btn {
     font-size: 20px;
   }
   .ourwork-slider__item {
@@ -955,17 +1008,16 @@ body {
     margin-right: 10px;
     left: -45px;
   }
+  .advantages__video {
+    height: 225px;
+  }
 }
 
 @media (max-width: 360px) {
   .about__images {
     max-width: 265px;
   }
-}
-
-@media (max-width: 400px) {
-  .contact__map-img {
-    width: 300px;
-    height: 230px;
+  .advantages__video {
+    height: 195px;
   }
 }
