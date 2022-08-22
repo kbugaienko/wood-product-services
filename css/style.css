@@ -122,6 +122,7 @@ body {
   right: 0;
   max-width: 1245px;
   margin-top: 85px;
+  margin-left: 50px;
 }
 
 .header__content--text {
@@ -642,6 +643,14 @@ body {
   }
 }
 
+@media (max-width: 1245px) {
+  .header__content--images {
+    margin-right: 25px;
+    margin-left: 0;
+    gap: 30px;
+  }
+}
+
 @media (max-width: 1230px) {
   .ourwork__title {
     margin-left: 25px;
@@ -673,6 +682,18 @@ body {
 @media (max-width: 1180px) {
   .advantages__content {
     gap: 30px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .header__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 31px;
+  }
+  .header__img-1 {
+    top: 100px;
+    position: relative;
   }
 }
 
@@ -717,6 +738,34 @@ body {
   .contact__map-img {
     width: 700px;
     height: 400px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .header__content {
+    flex-wrap: wrap;
+  }
+  .header__content--text {
+    border-right: none;
+    border-bottom: 1px solid #F5F5F5;
+    margin: 0 25px 25px 26px;
+  }
+  .header__title {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .header__content--images {
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+  .header__img-1 {
+    top: 0;
+  }
+  .header__background-img {
+    height: 1140px;
+  }
+  .header {
+    min-height: 1135px;
   }
 }
 
@@ -839,13 +888,16 @@ body {
   .products__list,
   .products__item--title,
   .advantages__descr-text,
-  .advantages__btn {
+  .advantages__btn,
+  .header__text, 
+  .header__btn {
     font-size: 25px;
   }
   .about,
   .ourwork,
   .woodtypes,
-  .advantages {
+  .advantages,
+  .header {
     margin-bottom: 50px;
   }
   .products__item--oak,
@@ -868,6 +920,10 @@ body {
   .slick-prev img {
     width: 47px;
     height: 44px;
+  }
+  .header__title,
+  .header__text {
+    margin-bottom: 35px;
   }
 }
 
@@ -967,6 +1023,10 @@ body {
   .advantages__video {
     height: 270px;
   }
+  .header__btn {
+    padding: 11px 50px;
+    border-radius: 30px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -989,7 +1049,9 @@ body {
   .footer__address-text,
   .footer__num span,
   .advantages__descr-text,
-  .advantages__btn {
+  .advantages__btn,
+  .header__text, 
+  .header__btn {
     font-size: 20px;
   }
   .ourwork-slider__item {
@@ -1010,6 +1072,20 @@ body {
   }
   .advantages__video {
     height: 225px;
+  }
+  .header__content {
+    margin-left: 20px;
+  }
+  .header__img {
+    width: 115px;
+    height: 115px;
+    border-radius: 24px;
+  }
+  .header {
+    min-height: 887px;
+  }
+  .header__background-img {
+    height: 900px;
   }
 }
 
