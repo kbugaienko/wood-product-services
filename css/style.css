@@ -63,7 +63,7 @@ body {
 }
 
 .header-gallery {
-  min-height: 180px;
+  min-height: 160px;
   margin-bottom: 100px;
 }
 
@@ -739,6 +739,9 @@ body {
     width: 700px;
     height: 400px;
   }
+  .contact__map {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 1020px) {
@@ -768,7 +771,7 @@ body {
     min-height: 1135px;
   }
   .header-gallery {
-    min-height: 180px;
+    min-height: 160px;
   }
 }
 
@@ -810,16 +813,14 @@ body {
     border: none;
     background-color: transparent;
     position: absolute;
-    right: 30px;
-    top: 80px;
+    right: 40px;
+    top: 60px;
   }
-  
   .menu__btn span {
     display: block;
     height: 3px;
     background-color: #F5F5F5;
   }
-  
   .menu__btn::after,
   .menu__btn::before {
     content: "";
@@ -829,18 +830,15 @@ body {
     left: 0;
     background-color: #F5F5F5;
   }
-  
   .menu__btn::after {
     bottom: 0;
     width: 50%;
     margin-left: 20px;
   }
-  
   .menu__btn::before {
     top: 0;
     width: 50%;
   }
-  
   .header__menu-list {
     transform: translateY(-300%);
     display: block;
@@ -851,16 +849,17 @@ body {
     right: 0;
     left: 0;
   }
-  
   .header__menu-item {
     display: block;
     text-align: center;
     padding: 10px;
   }
-  
   .header__menu-list.header__menu-list--active {
     transform: translateY(25%);
     z-index: 9999;
+  }
+  .header__top {
+    padding-top: 35px;
   }
   .ourwork-slider__item {
     border-radius: 23px;
@@ -900,7 +899,8 @@ body {
   .ourwork,
   .woodtypes,
   .advantages,
-  .header {
+  .header,
+  .questions {
     margin-bottom: 50px;
   }
   .products__item--oak,
@@ -939,7 +939,7 @@ body {
     height: 230px;
   }
   .contact__map {
-    margin-left: 5px;
+    margin: 0 auto;
   }
   .contact__title {
     font-size: 30px;
@@ -1010,6 +1010,12 @@ body {
     margin-right: 15px;
     left: -60px;
   }
+  .footer {
+    height: 285px;
+  }
+  .questions__inner {
+    gap: 25px;
+  }
 }
 
 @media (max-width: 503px) {
@@ -1054,7 +1060,8 @@ body {
   .advantages__descr-text,
   .advantages__btn,
   .header__text, 
-  .header__btn {
+  .header__btn,
+  .products__list {
     font-size: 20px;
   }
   .ourwork-slider__item {
@@ -1087,8 +1094,20 @@ body {
   .header {
     min-height: 887px;
   }
+  .header-gallery {
+    min-height: 160px;
+  }
   .header__background-img {
     height: 900px;
+  }
+  .products__item {
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .products__item--title {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 26px;
   }
 }
 
