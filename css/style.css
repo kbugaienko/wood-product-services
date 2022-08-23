@@ -767,6 +767,9 @@ body {
   .header {
     min-height: 1135px;
   }
+  .header-gallery {
+    min-height: 180px;
+  }
 }
 
 @media (max-width: 950px) {
