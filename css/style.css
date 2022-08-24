@@ -497,15 +497,30 @@ body {
 
 .footer__inner {
   margin-top: 70px;
+  margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
 }
 
+.footer__logo {
+  max-width: 345px;
+}
+
 .footer__logo-text {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 139.4%;
   margin-top: 58px;
   margin-left: 25px;
+  color: #99979c;
+}
+
+.footer__logo-text a {
+  color: #007bff;
+}
+
+.footer__logo-text a:hover {
+  color: #98BCEE;
+  text-decoration: underline;
 }
 
 .footer__num,
@@ -781,10 +796,19 @@ body {
   }
   .footer__logo-text {
     margin: 10px 0;
+    position: absolute;
+    bottom: 0;
+    max-width: 345px;
+    padding: 0 10px;
   }
   .footer__inner {
     display: block;
     text-align: center;
+    margin-top: 30px;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    padding-bottom: 10px;
   }
   .footer__phone {
     display: inline-block;
@@ -792,9 +816,6 @@ body {
   .footer__address {
     margin: 0 auto;
     width: max-content;
-  }
-  .footer__inner {
-    margin-top: 50px;
   }
   .about {
     margin-right: 25px;
@@ -964,6 +985,9 @@ body {
   .footer__num span,
   .footer__address-text span {
     font-size: 20px;
+  }
+  .footer__logo-text {
+    font-size: 14px;
   }
   .title {
     font-size: 50px;
