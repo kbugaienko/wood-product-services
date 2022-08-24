@@ -6,12 +6,12 @@ This work is based on **[wood product services website](https://www.figma.com/co
 by *[GLOS Dashka](https://www.figma.com/@glosdashka)* 
 licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-### Site view at 1080 full HD
+### Website looks like this on 1080 Full HD
 
 ![FullHD1080-img](images/demo/FullHD1080_1.jpg)
 ![FullHD1080-img](images/demo/FullHD1080_2.jpg)
 
-### Site view on iPad
+### Website looks like this on iPad
 
 ![iPad-img](images/demo/iPad_1.jpg)
 ![iPad-img](images/demo/iPad_2.jpg)
@@ -21,7 +21,7 @@ licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 ![iPhone12Pro-img](images/demo/iPhone12Pro_1.jpg)
 ![iPhone12Pro-img](images/demo/iPhone12Pro_2.jpg)
 
-### Site view on iPhoneSE
+### Website looks like this on iPhoneSE
 
 ![iPhoneSE-img](images/demo/iPhoneSE_1.jpg)
 ![iPhoneSE-img](images/demo/iPhoneSE_2.jpg)

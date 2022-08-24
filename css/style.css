@@ -335,6 +335,7 @@ body {
 }
 
 .advantages__descr-text {
+  font-weight: 500;
   margin-bottom: 48px;
 }
 
@@ -351,6 +352,12 @@ body {
   margin: 0 auto;
   cursor: pointer;
   margin-bottom: 11px;
+  transition: all .3s;
+}
+
+.advantages__btn:hover {
+  background-color: #D5DCEE;
+  color: #8E3921;
 }
 
 .about {
@@ -463,6 +470,12 @@ body {
   border: none;
   cursor: pointer;
   margin-top: 17px;
+  transition: all .3s;
+}
+
+.questions__btn:hover {
+  background-color: #D5DCEE;
+  color: #8E3921;
 }
 
 .questions__text {
@@ -991,9 +1004,6 @@ body {
   }
   .title {
     font-size: 50px;
-  }
-  .aboutus__text {
-    font-size: 20px;
   }
   .about__box {
     padding: 20px;
